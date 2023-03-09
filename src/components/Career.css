@@ -1,0 +1,47 @@
+.main_career{
+    padding-top: 100px;
+    height: 80vh;
+}
+.career{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.mainbox{
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 50px;
+}
+.mainbox .box{
+    background-image: url(../img/box.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.box .imgmain{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+.box img{
+    width: 30%;
+    /* padding: 10px; */
+}
+.box h2{
+color: white;
+/* padding: 10px; */
+}
+.box .pin{
+    width: 20px;
+    height: 20px;
+    /* margin: 10px; */
+}
+.box p{
+    color: white;
+}
